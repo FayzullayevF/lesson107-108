@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:lesson107/presentation/TreaningRecipe.dart';
 import 'package:lesson107/presentation/YourRecipe.dart';
 import 'package:lesson107/presentation/TopChefs.dart';
+import 'package:lesson107/presentation/RecentlyAdded.dart';
 
 
 class ScoffoldPage extends StatelessWidget {
@@ -18,7 +19,9 @@ class ScoffoldPage extends StatelessWidget {
         SizedBox(height: 80,),
         MyRecipe(),
         SizedBox(height: 10,),
-        Chefs()
+        Chefs(),
+        SizedBox(height: 10,),
+        RecentItem()
 
       ],
     );

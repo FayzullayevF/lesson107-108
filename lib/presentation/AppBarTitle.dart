@@ -13,7 +13,7 @@ class AppbarTitle extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Padding(
-            padding: EdgeInsets.only(right: 10),
+            padding: EdgeInsets.only(right: 30),
             child: Text(
               "Hi! Fatxullo",
             style: TextStyle(
